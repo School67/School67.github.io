@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Contact V1</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css1/style.css">
+<!--===============================================================================================-->
+</head>
+<body>
+
+	<div class="contact1">
+		<div class="container-contact1">
+			<div class="contact1-pic js-tilt" data-tilt>
+				<img src="images/q1.png" alt="IMG">
+			</div>
+
+			<form class="contact1-form validate-form" id = "div0_0">
+				<div>
+					<p>Когда была открыта школа №67?</p>
+				</div>
+				<ul class="list">
+					<li class="list__item">
+					 <input type="radio" class="radio-btn" name="choise" id="a-opt" onclick="show0_false();"/>
+					 <label for="a-opt" class="label">7 октября 1995 г.</label>
+					</li>
+					<li class="list__item">
+					 <input type="radio" class="radio-btn" name="choise" id="b-opt" onclick="show0_true();"/>
+					 <label for="b-opt" class="label">7 октября 1963 г.</label>
+					</li>
+					<li class="list__item">
+					 <input type="radio" class="radio-btn" name="choise" id="c-opt" onclick="show0_false();"/>
+					 <label for="c-opt" class="label">7 октября 1942 г.</label>
+					</li>
+					<li class="list__item">
+					 <input type="radio" class="radio-btn" name="choise" id="d-opt" onclick="show0_false();"/>
+					 <label for="d-opt" class="label">7 октября 1986 г.</label>
+					</li>
+				   </ul>
+				  
+			</form>
+			<div class="hide contact1-form validate-form" id="div0_true">
+				<p>Верно!</p>
+			</div>
+			<div class="hide contact1-form validate-form" id="div0_false">
+				<p>Нет, она была открыта 7 октября 1963 г.</p>
+			</div>
+		</div>
+	</div>
+<!--**************************************************-->
+	<div class="contact1">
+		<div class="container-contact1">
+			<div class="contact1-pic js-tilt" data-tilt>
+				<img src="images/q2.png" alt="IMG">
+			</div>
+
+			<form class="contact1-form validate-form" id = "div0_1">
+				<div>
+					<p>Кто был первым директором школы №67?</p>
+				</div>
+				<ul class="list">
+					<li class="list__item">
+					 <input type="radio" class="radio-btn" name="choise" id="a-opt1" onclick="show1_true();"/>
+					 <label for="a-opt1" class="label">Леонид Семенович<br>Шергер</label>
+					</li>
+					<li class="list__item">
+					 <input type="radio" class="radio-btn" name="choise" id="b-opt1" onclick="show1_false();"/>
+					 <label for="b-opt1" class="label">Нина Владимировна<br>Молькова</label>
+					</li>
+					<li class="list__item">
+					 <input type="radio" class="radio-btn" name="choise" id="c-opt1" onclick="show1_false();"/>
+					 <label for="c-opt1" class="label">Лидия Николаевна<br>Захарова</label>
+					</li>
+					<li class="list__item">
+					 <input type="radio" class="radio-btn" name="choise" id="d-opt1" onclick="show1_false();"/>
+					 <label for="d-opt1" class="label">Мария Григорьевна<br>Корягина</label>
+					</li>
+				   </ul>
+				  
+			</form>
+			<div class="hide contact1-form validate-form" id="div1_true">
+				<p>Точно!</p>
+			</div>
+			<div class="hide contact1-form validate-form" id="div1_false">
+				<p>Не-а! Первым директором был Леонид Семенович Шергер </p>
+			</div>
+		</div>
+	</div>
+<!--**************************************************-->
+<div class="contact1">
+	<div class="container-contact1">
+		<div class="contact1-pic js-tilt" data-tilt>
+			<img src="images/q3.png" alt="IMG">
+		</div>
+
+		<form class="contact1-form validate-form" id = "div0_2">
+				<div>
+					<p>В каком городе родилась Захарова Лидия Николаевна?</p>
+				</div>
+			<ul class="list">
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="a-opt2" onclick="show2_false();"/>
+				 <label for="a-opt2" class="label">Москва</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="b-opt2" onclick="show2_false();"/>
+				 <label for="b-opt2" class="label">Иваново</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="c-opt2" onclick="show2_true();"/>
+				 <label for="c-opt2" class="label">Ульяновск</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="d-opt2" onclick="show2_false();"/>
+				 <label for="d-opt2" class="label">Саратов</label>
+				</li>
+			   </ul>
+			  
+		</form>
+		<div class="hide contact1-form validate-form" id="div2_true">
+			<p>В яблочко!</p>
+		</div>
+		<div class="hide contact1-form validate-form" id="div2_false">
+			<p>Мимо:(<br>Она из Ульяновска</p>
+		</div>
+	</div>
+</div>	
+<!--**************************************************-->
+<div class="contact1">
+	<div class="container-contact1">
+		<div class="contact1-pic js-tilt" data-tilt>
+			<img src="images/q6.png" alt="IMG">
+		</div>
+
+		<form class="contact1-form validate-form" id = "div0_3">
+				<div>
+					<p>Что первым делом отметила Л.Н. Захарова, став директором?</p>
+				</div>
+			<ul class="list">
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="a-opt3" onclick="show3_false();"/>
+				 <label for="a-opt3" class="label">Высокий уровень образования</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="b-opt3" onclick="show3_true();"/>
+				 <label for="b-opt3" class="label">Косность мышления учеников</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="c-opt3" onclick="show3_false();"/>
+				 <label for="c-opt3" class="label">Творческую деятельность</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="d-opt3" onclick="show3_false();"/>
+				 <label for="d-opt3" class="label">Отсутствие системы поддержки учеников</label>
+				</li>
+			   </ul>
+			  
+		</form>
+		<div class="hide contact1-form validate-form" id="div3_true">
+			<p>Ага:)</p>
+		</div>
+		<div class="hide contact1-form validate-form" id="div3_false">
+			<p>Правильный ответ: Косность мышления учеников</p>
+		</div>
+	</div>
+</div>
+<!--**************************************************-->
+<div class="contact1">
+	<div class="container-contact1">
+		<div class="contact1-pic js-tilt" data-tilt>
+			<img src="images/q1.png" alt="IMG">
+		</div>
+
+		<form class="contact1-form validate-form" id = "div0_4">
+				<div>
+					<p>В каком году 67 школа была переименована в школу-лицей?</p>
+				</div>
+			<ul class="list">
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="a-opt4" onclick="show4_false();"/>
+				 <label for="a-opt4" class="label">1998</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="b-opt4" onclick="show4_true();"/>
+				 <label for="b-opt4" class="label">1993</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="c-opt4" onclick="show4_false();"/>
+				 <label for="c-opt4" class="label">1986</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="d-opt4" onclick="show4_false();"/>
+				 <label for="d-opt4" class="label">1963</label>
+				</li>
+			   </ul>
+			  
+		</form>
+		<div class="hide contact1-form validate-form" id="div4_true">
+			<p>Правильно!</p>
+		</div>
+		<div class="hide contact1-form validate-form" id="div4_false">
+			<p>Нет, в '93</p>
+		</div>
+	</div>
+</div>
+<!--**************************************************-->
+<div class="contact1">
+	<div class="container-contact1">
+		<div class="contact1-pic js-tilt" data-tilt>
+			<img src="images/q4.png" alt="IMG">
+		</div>
+
+		<form class="contact1-form validate-form" id = "div0_5">
+				<div>
+					<p>Какую науку преподавала Захарова Л.Н. в школе?</p>
+				</div>
+			<ul class="list">
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="a-opt5" onclick="show5_false();"/>
+				 <label for="a-opt5" class="label">Математику</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="b-opt5" onclick="show5_true();"/>
+				 <label for="b-opt5" class="label">Историю </label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="c-opt5" onclick="show5_false();"/>
+				 <label for="c-opt5" class="label">Литературу</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="d-opt5" onclick="show5_false();"/>
+				 <label for="d-opt5" class="label">Физику</label>
+				</li>
+			   </ul>
+			  
+		</form>
+		<div class="hide contact1-form validate-form" id="div5_true">
+			<p>Точно:)</p>
+		</div>
+		<div class="hide contact1-form validate-form" id="div5_false">
+			<p>Сейчас, ага...<br>Она преподавала Историю</p>
+		</div>
+	</div>
+</div>
+<!--**************************************************-->
+<div class="contact1">
+<div class="container-contact1">
+	<div class="contact1-pic js-tilt" data-tilt>
+		<img src="images/q3.png" alt="IMG">
+	</div>
+
+	<form class="contact1-form validate-form" id = "div0_6">
+			<div>
+				<p>Какой предмет появился после того, как Е.Б. Дмитриева посетила Суворовское училище?</p>
+			</div>
+		<ul class="list">
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="a-opt6" onclick="show6_true();"/>
+			 <label for="a-opt6" class="label">Этикет</label>
+			</li>
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="b-opt6" onclick="show6_false();"/>
+			 <label for="b-opt6" class="label">Народная словесность</label>
+			</li>
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="c-opt6" onclick="show6_false();"/>
+			 <label for="c-opt6" class="label">Политология</label>
+			</li>
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="d-opt6" onclick="show6_false();"/>
+			 <label for="d-opt6" class="label">Основы безопасности жизнедеятельности</label>
+			</li>
+		   </ul>
+		  
+	</form>
+	<div class="hide contact1-form validate-form" id="div6_true">
+		<p>Точно!</p>
+	</div>
+	<div class="hide contact1-form validate-form" id="div6_false">
+		<p>Ноуп(<br>Появились уроки этикета</p>
+	</div>
+</div>
+</div>	
+<!--**************************************************-->
+<div class="contact1">
+<div class="container-contact1">
+	<div class="contact1-pic js-tilt" data-tilt>
+		<img src="images/q5.png" alt="IMG">
+	</div>
+
+	<form class="contact1-form validate-form" id = "div0_7">
+			<div>
+				<p>67 лицей – первое учебное заведение в г. Иваново, где:</p>
+			</div>
+		<ul class="list">
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="a-opt61" onclick="show7_true();"/>
+			 <label for="a-opt61" class="label">были введены электронные журналы</label>
+			</li>
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="b-opt61" onclick="show7_false();"/>
+			 <label for="b-opt61" class="label">был открыт кинокласс</label>
+			</li>
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="c-opt61" onclick="show7_false();"/>
+			 <label for="c-opt61" class="label">был открыт клуб<br>интернациональной<br>дружбы</label>
+			</li>
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="d-opt61" onclick="show7_false();"/>
+			 <label for="d-opt61" class="label">был оборудован компьютерный класс</label>
+			</li>
+		   </ul>
+		  
+	</form>
+	<div class="hide contact1-form validate-form" id="div7_true">
+		<p>Да!</p>
+	</div>
+	<div class="hide contact1-form validate-form" id="div7_false">
+		<p>Нет. Здесь впервые появились электронные журналы</p>
+	</div>
+</div>
+</div>
+<!--**************************************************-->
+<div class="contact1">
+	<div class="container-contact1">
+		<div class="contact1-pic js-tilt" data-tilt>
+			<img src="images/q1.png" alt="IMG">
+		</div>
+
+		<form class="contact1-form validate-form" id = "div0_8">
+				<div>
+					<p>Лидия Николаевна неоднократно избиралась на пост:</p>
+				</div>
+			<ul class="list">
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="a-opt7" onclick="show8_true();"/>
+				 <label for="a-opt7" class="label">депутата Ивановского городского Совета народных депутатов Ивановской области</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="b-opt7" onclick="show8_false();"/>
+				 <label for="b-opt7" class="label">депутата Ивановской городской Думы по образованию</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="c-opt7" onclick="show8_false();"/>
+				 <label for="c-opt7" class="label">депутата Ивановской городской Думы по законности,<br>общественной<br>безопасности и вопросам местного самоуправления</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="d-opt7" onclick="show8_false();"/>
+				 <label for="d-opt7" class="label">депутата Ивановской городской Думы по делам молодежи, культуре, спорту и туризму</label>
+				</li>
+			   </ul>
+			  
+		</form>
+		<div class="hide contact1-form validate-form" id="div8_true">
+			<p>Точно!</p>
+		</div>
+		<div class="hide contact1-form validate-form" id="div8_false">
+			<p>Неверно<br>Она избиралась на пост депутата Ивановского городского Совета народных депутатов Ивановской области</p>
+		</div>
+	</div>
+</div>
+<!--**************************************************-->
+<div class="contact1">
+	<div class="container-contact1">
+		<div class="contact1-pic js-tilt" data-tilt>
+			<img src="images/q3.png" alt="IMG">
+		</div>
+
+		<form class="contact1-form validate-form" id = "div0_9">
+				<div>
+					<p>Сколько лет посвятила Захарова Лидия Николаевна народному образованию?</p>
+				</div>
+			<ul class="list">
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="a-opt8" onclick="show9_false();"/>
+				 <label for="a-opt8" class="label">45</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="b-opt8" onclick="show9_true();"/>
+				 <label for="b-opt8" class="label">51</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="c-opt8" onclick="show9_false();"/>
+				 <label for="c-opt8" class="label">56</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="d-opt8" onclick="show9_false();"/>
+				 <label for="d-opt8" class="label">40</label>
+				</li>
+			   </ul>
+			  
+		</form>
+		<div class="hide contact1-form validate-form" id="div9_true">
+			<p>Верно!</p>
+		</div>
+		<div class="hide contact1-form validate-form" id="div9_false">
+			<p>Нет, 51 год</p>
+		</div>
+	</div>
+</div>
+<!--**************************************************-->
+<div class="contact1">
+<div class="container-contact1">
+	<div class="contact1-pic js-tilt" data-tilt>
+		<img src="images/q4.png" alt="IMG">
+	</div>
+
+	<form class="contact1-form validate-form" id = "div0_10">
+			<div>
+				<p>Когда Захаровой Лидии Николаевне присвоено звание Почетного гражданина г. Иванова?</p>
+			</div>
+		<ul class="list">
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="a-opt9" onclick="show10_false();"/>
+			 <label for="a-opt9" class="label">8 марта 2017 года</label>
+			</li>
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="b-opt9" onclick="show10_false();"/>
+			 <label for="b-opt9" class="label">1 сентября 2016 года</label>
+			</li>
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="c-opt9" onclick="show10_true();"/>
+			 <label for="c-opt9" class="label">24 мая 2017 года</label>
+			</li>
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="d-opt9" onclick="show10_false();"/>
+			 <label for="d-opt9" class="label">5 октября 2016 года</label>
+			</li>
+		   </ul>
+		  
+	</form>
+	<div class="hide contact1-form validate-form" id="div10_true">
+		<p>Отлично!</p>
+	</div>
+	<div class="hide contact1-form validate-form" id="div10_false">
+		<p>Не-а. 24 мая 2017 года</p>
+	</div>
+</div>
+</div>	
+<!--
+<div class="contact1">
+	<div class="hide contact1-form validate-form" id="div11_false">
+		<p>false</p>
+	</div>
+</div>
+**************************************************
+<div class="contact1">
+<div class="container-contact1">
+	<div class="contact1-pic js-tilt" data-tilt>
+		<img src="images/img-01.png" alt="IMG">
+	</div>
+
+	<form class="contact1-form validate-form" id = "div0_11">
+			<div>
+				<p>Какими личными наградами обладает Захарова Лидия Николаевна?</p>
+			</div>
+		<ul class="list">
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="a-opt10" onclick="show0_false();"/>
+			 <label for="a-opt10" class="label">«Заслуженный учитель школы РСФСР», нагрудный знак «Отличник народного образования», нагрудный знак «За милосердие и благотворительность», знак «За заслуги перед Ивановской областью»,  Почетный гражданин г. Иваново.</label>
+			</li>
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="b-opt10" onclick="show0_false();"/>
+			 <label for="b-opt10" class="label">Знак «За заслуги перед городом Иваново», «Народный учитель РФ» », Почетный работник сферы молодёжной политики РФ, является членом регионального и городского отделений Всероссийского педагогического собрания, Почетный гражданин г. Иваново.</label>
+			</li>
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="c-opt10" onclick="show0_false();"/>
+			 <label for="c-opt10" class="label"> «Заслуженный учитель школы РСФСР», медаль ордена «За заслуги перед Отечеством» 2 степени, нагрудный знак «Отличник народного образования», Грамота Федерального Собрания - Парламента Российской Федерации Государственной Думы, знак «За заслуги перед городом Иваново», знак «За заслуги перед Ивановской областью», является членом регионального и городского отделений Всероссийского педагогического собрания, занесена к Книгу Почета «Лучшие люди России», Почетный гражданин г. Иваново.</label>
+			</li>
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="d-opt10" onclick="show0_false();"/>
+			 <label for="d-opt10" class="label">Медаль ордена «За заслуги перед Отечеством» 2 степени, нагрудный знак «Отличник народного образования», нагрудный знак «Отличник народного просвещения» занесена к Книгу Почета «Лучшие люди России», Почетный гражданин г. Иваново.</label>
+			</li>
+		   </ul>
+		  
+	</form>
+	<div class="hide contact1-form validate-form" id="div11_true">
+		<p>true</p>
+	</div>
+	<div class="hide contact1-form validate-form" id="div11_false">
+		<p>false</p>
+	</div>
+</div>
+</div>
+**************************************************-->
+
+
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
