@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Опрос</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css1/style.css">
+<!--===============================================================================================-->
+</head>
+<body>
+
+	<div class="contact1">
+		<div class="container-contact1">
+			<div class="contact1-pic js-tilt" data-tilt>
+				<img src="images/q1.png" alt="IMG">
+			</div>
+
+			<form class="contact1-form validate-form" id = "div0_0">
+				<div>
+					<p>В какой области культуры проявила себя Валентина Ивановна Бакова?</p>
+				</div>
+				<ul class="list">
+					<li class="list__item">
+					 <input type="radio" class="radio-btn" name="choise" id="a-opt" onclick="show0_false();"/>
+					 <label for="a-opt" class="label">Хоровое пение</label>
+					</li>
+					<li class="list__item">
+					 <input type="radio" class="radio-btn" name="choise" id="b-opt" onclick="show0_true();"/>
+					 <label for="b-opt" class="label">Хореография</label>
+					</li>
+					<li class="list__item">
+					 <input type="radio" class="radio-btn" name="choise" id="c-opt" onclick="show0_false();"/>
+					 <label for="c-opt" class="label">Литература</label>
+					</li>
+					<li class="list__item">
+					 <input type="radio" class="radio-btn" name="choise" id="d-opt" onclick="show0_false();"/>
+					 <label for="d-opt" class="label">Архитектура</label>
+					</li>
+				   </ul>
+				  
+			</form>
+			<div class="hide contact1-form validate-form" id="div0_true">
+				<p>Верно!</p>
+			</div>
+			<div class="hide contact1-form validate-form" id="div0_false">
+				<p>Нет, она проявила себя в хореографии</p>
+			</div>
+		</div>
+	</div>
+<!--**************************************************-->
+	<div class="contact1">
+		<div class="container-contact1">
+			<div class="contact1-pic js-tilt" data-tilt>
+				<img src="images/q2.png" alt="IMG">
+			</div>
+
+			<form class="contact1-form validate-form" id = "div0_1">
+				<div>
+					<p>Основателем и художественным руководителем какого ансамбля является В.И.Бакова?</p>
+				</div>
+				<ul class="list">
+					<li class="list__item">
+					 <input type="radio" class="radio-btn" name="choise" id="a-opt1" onclick="show1_false();"/>
+					 <label for="a-opt1" class="label">«Нон-стоп»</label>
+					</li>
+					<li class="list__item">
+					 <input type="radio" class="radio-btn" name="choise" id="b-opt1" onclick="show1_false();"/>
+					 <label for="b-opt1" class="label">«Иван-да-Марья»</label>
+					</li>
+					<li class="list__item">
+					 <input type="radio" class="radio-btn" name="choise" id="c-opt1" onclick="show1_true();"/>
+					 <label for="c-opt1" class="label">«Улыбка»</label>
+					</li>
+					<li class="list__item">
+					 <input type="radio" class="radio-btn" name="choise" id="d-opt1" onclick="show1_false();"/>
+					 <label for="d-opt1" class="label">«Сказка»</label>
+					</li>
+				   </ul>
+				  
+			</form>
+			<div class="hide contact1-form validate-form" id="div1_true">
+				<p>Точно!</p>
+			</div>
+			<div class="hide contact1-form validate-form" id="div1_false">
+				<p>Нет. Верный ответ - «Улыбка»</p>
+			</div>
+		</div>
+	</div>
+<!--**************************************************-->
+<div class="contact1">
+	<div class="container-contact1">
+		<div class="contact1-pic js-tilt" data-tilt>
+			<img src="images/q3.png" alt="IMG">
+		</div>
+
+		<form class="contact1-form validate-form" id = "div0_2">
+				<div>
+					<p>В каких годах Баковой В.И. был основан образцовый хореографический ансамбль «Улыбка»?</p>
+				</div>
+			<ul class="list">
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="a-opt2" onclick="show2_false();"/>
+				 <label for="a-opt2" class="label">В 60-х</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="b-opt2" onclick="show2_true();"/>
+				 <label for="b-opt2" class="label">В 70-х</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="c-opt2" onclick="show2_false();"/>
+				 <label for="c-opt2" class="label">В 80-х</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="d-opt2" onclick="show2_false();"/>
+				 <label for="d-opt2" class="label">В 90-х</label>
+				</li>
+			   </ul>
+			  
+		</form>
+		<div class="hide contact1-form validate-form" id="div2_true">
+			<p>В яблочко!</p>
+		</div>
+		<div class="hide contact1-form validate-form" id="div2_false">
+			<p>Мимо:(<br>В 70-х</p>
+		</div>
+	</div>
+</div>	
+<!--**************************************************-->
+<div class="contact1">
+	<div class="container-contact1">
+		<div class="contact1-pic js-tilt" data-tilt>
+			<img src="images/q6.png" alt="IMG">
+		</div>
+
+		<form class="contact1-form validate-form" id = "div0_3">
+				<div>
+					<p>Репертуар ансамбля «Улыбка»</p>
+				</div>
+			<ul class="list">
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="a-opt3" onclick="show3_true();"/>
+				 <label for="a-opt3" class="label">Классический, эстрадный<br>танец<br>и танцы народов мира</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="b-opt3" onclick="show3_false();"/>
+				 <label for="b-opt3" class="label">Спортивный бальный танец</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="c-opt3" onclick="show3_false();"/>
+				 <label for="c-opt3" class="label">Латиноамериканский<br>танец, сальса,<br>хастл</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="d-opt3" onclick="show3_false();"/>
+				 <label for="d-opt3" class="label">Акробатический танец</label>
+				</li>
+			   </ul>
+			  
+		</form>
+		<div class="hide contact1-form validate-form" id="div3_true">
+			<p>Ага:)</p>
+		</div>
+		<div class="hide contact1-form validate-form" id="div3_false">
+			<p>Правильный ответ: Классический, эстрадный танец и танцы народов мира</p>
+		</div>
+	</div>
+</div>
+<!--**************************************************-->
+<div class="contact1">
+	<div class="container-contact1">
+		<div class="contact1-pic js-tilt" data-tilt>
+			<img src="images/q1.png" alt="IMG">
+		</div>
+
+		<form class="contact1-form validate-form" id = "div0_4">
+				<div>
+					<p>В каких странах «Улыбка» принимала участие в фестивалях и конкурсах?</p>
+				</div>
+			<ul class="list">
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="a-opt4" onclick="show4_true();"/>
+				 <label for="a-opt4" class="label">Кипр, Сербия, Грузия, Болгария, Швейцария</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="b-opt4" onclick="show4_false();"/>
+				 <label for="b-opt4" class="label">Сербия, Польша,<br>Белоруссия, Эстония,<br>Бельгия</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="c-opt4" onclick="show4_false();"/>
+				 <label for="c-opt4" class="label">Кипр, Грузия, Литва, Латвия, Норвегия</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="d-opt4" onclick="show4_false();"/>
+				 <label for="d-opt4" class="label">Швейцария, Франция, Германия, Кипр, Италия</label>
+				</li>
+			   </ul>
+			  
+		</form>
+		<div class="hide contact1-form validate-form" id="div4_true">
+			<p>Правильно!</p>
+		</div>
+		<div class="hide contact1-form validate-form" id="div4_false">
+			<p>Нет. Верный ответ: Кипр, Сербия, Грузия, Болгария, Швейцария</p>
+		</div>
+	</div>
+</div>
+<!--**************************************************-->
+<div class="contact1">
+	<div class="container-contact1">
+		<div class="contact1-pic js-tilt" data-tilt>
+			<img src="images/q4.png" alt="IMG">
+		</div>
+
+		<form class="contact1-form validate-form" id = "div0_5">
+				<div>
+					<p>Какой номинации удостоена В.И. Бакова в 2012?</p>
+				</div>
+			<ul class="list">
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="a-opt5" onclick="show5_false();"/>
+				 <label for="a-opt5" class="label">«МОЯ МАЛАЯ РОДИНА - 2012»</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="b-opt5" onclick="show5_false();"/>
+				 <label for="b-opt5" class="label">«ОТКРЫТОЕ СЕРДЦЕ - 2012» </label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="c-opt5" onclick="show5_true();"/>
+				 <label for="c-opt5" class="label">«ЧЕЛОВЕК-ЛЕГЕНДА – 2012»</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="d-opt5" onclick="show5_false();"/>
+				 <label for="d-opt5" class="label">«СЕРДЦЕ ОТДАЮ ЛЮДЯМ<br>- 2012»</label>
+				</li>
+			   </ul>
+			  
+		</form>
+		<div class="hide contact1-form validate-form" id="div5_true">
+			<p>Точно:)</p>
+		</div>
+		<div class="hide contact1-form validate-form" id="div5_false">
+			<p>Верный ответ: «ЧЕЛОВЕК-ЛЕГЕНДА – 2012»</p>
+		</div>
+	</div>
+</div>
+<!--**************************************************-->
+<div class="contact1">
+<div class="container-contact1">
+	<div class="contact1-pic js-tilt" data-tilt>
+		<img src="images/q3.png" alt="IMG">
+	</div>
+
+	<form class="contact1-form validate-form" id = "div0_6">
+			<div>
+				<p>Сколько педагогов ансамбля «Улыбка» награждены значком «Отличник народного просвещения»?</p>
+			</div>
+		<ul class="list">
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="a-opt6" onclick="show6_true();"/>
+			 <label for="a-opt6" class="label">6</label>
+			</li>
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="b-opt6" onclick="show6_false();"/>
+			 <label for="b-opt6" class="label">10</label>
+			</li>
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="c-opt6" onclick="show6_false();"/>
+			 <label for="c-opt6" class="label">2</label>
+			</li>
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="d-opt6" onclick="show6_false();"/>
+			 <label for="d-opt6" class="label">12</label>
+			</li>
+		   </ul>
+		  
+	</form>
+	<div class="hide contact1-form validate-form" id="div6_true">
+		<p>Точно!</p>
+	</div>
+	<div class="hide contact1-form validate-form" id="div6_false">
+		<p>Нет, 6</p>
+	</div>
+</div>
+</div>	
+<!--**************************************************-->
+<div class="contact1">
+<div class="container-contact1">
+	<div class="contact1-pic js-tilt" data-tilt>
+		<img src="images/q5.png" alt="IMG">
+	</div>
+
+	<form class="contact1-form validate-form" id = "div0_7">
+			<div>
+				<p>В каком фестивале ансамбль В.И. Баковой НЕ принимал участия?</p>
+			</div>
+		<ul class="list">
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="a-opt61" onclick="show7_true();"/>
+			 <label for="a-opt61" class="label">«Планета танца»</label>
+			</li>
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="b-opt61" onclick="show7_false();"/>
+			 <label for="b-opt61" class="label">«Самоцветы России»</label>
+			</li>
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="c-opt61" onclick="show7_false();"/>
+			 <label for="c-opt61" class="label">«Жар-птица»</label>
+			</li>
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="d-opt61" onclick="show7_false();"/>
+			 <label for="d-opt61" class="label">«Танцетворение»</label>
+			</li>
+		   </ul>
+		  
+	</form>
+	<div class="hide contact1-form validate-form" id="div7_true">
+		<p>Да!</p>
+	</div>
+	<div class="hide contact1-form validate-form" id="div7_false">
+		<p>Нет. Ответ - «Планета танца»</p>
+	</div>
+</div>
+</div>
+<!--**************************************************-->
+<div class="contact1">
+	<div class="container-contact1">
+		<div class="contact1-pic js-tilt" data-tilt>
+			<img src="images/q1.png" alt="IMG">
+		</div>
+
+		<form class="contact1-form validate-form" id = "div0_8">
+				<div>
+					<p>Где совместно с «Улыбкой» был поставлен мировой рекорд Гиннеса в 2015 г.?</p>
+				</div>
+			<ul class="list">
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="a-opt7" onclick="show8_false();"/>
+				 <label for="a-opt7" class="label">В Никосии</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="b-opt7" onclick="show8_false();"/>
+				 <label for="b-opt7" class="label">В Ларнаке</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="c-opt7" onclick="show8_false();"/>
+				 <label for="c-opt7" class="label">В Энгоми</label>
+				</li>
+				<li class="list__item">
+				 <input type="radio" class="radio-btn" name="choise" id="d-opt7" onclick="show8_true();"/>
+				 <label for="d-opt7" class="label">В Айя-Напе</label>
+				</li>
+			   </ul>
+			  
+		</form>
+		<div class="hide contact1-form validate-form" id="div8_true">
+			<p>Точно!</p>
+		</div>
+		<div class="hide contact1-form validate-form" id="div8_false">
+			<p>Нет, в Айя-Напе</p>
+		</div>
+	</div>
+</div>
+<!--**************************************************-->
+<!--
+<div class="contact1">
+	<div class="hide contact1-form validate-form" id="div11_false">
+		<p>false</p>
+	</div>
+</div>
+**************************************************
+<div class="contact1">
+<div class="container-contact1">
+	<div class="contact1-pic js-tilt" data-tilt>
+		<img src="images/img-01.png" alt="IMG">
+	</div>
+
+	<form class="contact1-form validate-form" id = "div0_11">
+			<div>
+				<p>Какими личными наградами обладает Захарова Лидия Николаевна?</p>
+			</div>
+		<ul class="list">
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="a-opt10" onclick="show0_false();"/>
+			 <label for="a-opt10" class="label">«Заслуженный учитель школы РСФСР», нагрудный знак «Отличник народного образования», нагрудный знак «За милосердие и благотворительность», знак «За заслуги перед Ивановской областью»,  Почетный гражданин г. Иваново.</label>
+			</li>
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="b-opt10" onclick="show0_false();"/>
+			 <label for="b-opt10" class="label">Знак «За заслуги перед городом Иваново», «Народный учитель РФ» », Почетный работник сферы молодёжной политики РФ, является членом регионального и городского отделений Всероссийского педагогического собрания, Почетный гражданин г. Иваново.</label>
+			</li>
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="c-opt10" onclick="show0_false();"/>
+			 <label for="c-opt10" class="label"> «Заслуженный учитель школы РСФСР», медаль ордена «За заслуги перед Отечеством» 2 степени, нагрудный знак «Отличник народного образования», Грамота Федерального Собрания - Парламента Российской Федерации Государственной Думы, знак «За заслуги перед городом Иваново», знак «За заслуги перед Ивановской областью», является членом регионального и городского отделений Всероссийского педагогического собрания, занесена к Книгу Почета «Лучшие люди России», Почетный гражданин г. Иваново.</label>
+			</li>
+			<li class="list__item">
+			 <input type="radio" class="radio-btn" name="choise" id="d-opt10" onclick="show0_false();"/>
+			 <label for="d-opt10" class="label">Медаль ордена «За заслуги перед Отечеством» 2 степени, нагрудный знак «Отличник народного образования», нагрудный знак «Отличник народного просвещения» занесена к Книгу Почета «Лучшие люди России», Почетный гражданин г. Иваново.</label>
+			</li>
+		   </ul>
+		  
+	</form>
+	<div class="hide contact1-form validate-form" id="div11_true">
+		<p>true</p>
+	</div>
+	<div class="hide contact1-form validate-form" id="div11_false">
+		<p>false</p>
+	</div>
+</div>
+</div>
+**************************************************-->
+
+
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
